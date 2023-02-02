@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "install": "^0.13.0",
+    "react-minimal-pie-chart": "^8.3.0"
+  }
+}

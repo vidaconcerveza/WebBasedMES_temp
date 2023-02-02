@@ -1,0 +1,24 @@
+
+{
+    "region" : "ap-northeast-1",
+    "configuration" : "Release",
+    "framework"     : "netcoreapp3.1",
+    "self-contained" : false,
+    "application"    : "Taegeuk",
+    "environment"    : "Taegeuk",
+    "enable-xray"    : false,
+    "enhanced-health-type" : "basic",
+    "additional-options"   : "",
+    "solution-stack"       : "64bit Amazon Linux 2 v2.3.5 running .NET Core",
+    "environment-type"     : "SingleInstance",
+    "cname"                : "hangukace",
+    "instance-type"        : "t3a.medium",
+    "key-pair"             : "sumes",
+    "instance-profile"     : "aws-elasticbeanstalk-ec2-role",
+    "service-role"         : "aws-elasticbeanstalk-service-role",
+    "proxy-server"         : "nginx",
+    "profile"              : "MyAccount",
+    "health-check-url"     : "/",
+    "iis-website"          : "Default Web Site",
+    "app-path"             : "/"
+}
